@@ -75,6 +75,7 @@ section h2 {
 	text-align: center;
 	text-shadow: 2px 1px 5px gray;
 	font-size: 3rem;
+	box-shadow: 0px 0px 5px #000000;
 }
 
 #about p {
@@ -87,7 +88,7 @@ section h2 {
 	border-radius: 100%;
 	max-width: 50%;
 	margin: 0 auto;
-	box-shadow: 0px 0px 8px #000000;
+	box-shadow: 0px 0px 5px #000000;
 }
 
 #me {
@@ -102,6 +103,7 @@ section h2 {
 }
 .shrink {
 	max-width: 90%;
+	box-shadow: 0px 0px 5px #000000;
 }
 .cent {
 	text-align: center;
