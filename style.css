@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family: monospace;
+	background-color: white;
 }
 
 header {
@@ -65,4 +66,30 @@ a {
 nav {
 	padding-top: 5px;
 	margin-bottom: 150px;
+}
+
+section h2 {
+	color: BurlyWood;
+	text-align: center;
+	text-shadow: 2px 1px 5px gray;
+	font-size: 3rem;
+}
+
+#about p {
+	width: 700px;
+	font-size: 1.1rem;
+	margin: 0 auto;
+	font-family: arial;
+	max-width: 100%;
+}
+
+#about img {
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+#me {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
