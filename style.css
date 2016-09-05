@@ -124,7 +124,6 @@ address {
 }
 
 #portfolio img {
-	width: 700px;
-	max-width: 100%
-
+	width: 100%;
+	margin-top: 15px;
 }
