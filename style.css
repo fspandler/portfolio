@@ -2,17 +2,18 @@ body {
 	margin: 0;
 	font-family: monospace;
 	background-color: white;
-}
-
-header {
-	  background: url(images/1.jpg) no-repeat center center fixed; 
+		  background: url(images/1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+header {
+
   padding-left: 10px;
   padding-right:10px;
-  height: 600px;
+  height: 500px;
 }
 
 img {
@@ -69,27 +70,39 @@ nav {
 }
 
 section h2 {
-	color: BurlyWood;
+ 	color: black;
+ 	background-color: white;
 	text-align: center;
 	text-shadow: 2px 1px 5px gray;
 	font-size: 3rem;
 }
 
 #about p {
-	width: 700px;
 	font-size: 1.1rem;
 	margin: 0 auto;
 	font-family: arial;
-	max-width: 100%;
 }
 
 #about img {
 	border-radius: 100%;
+	max-width: 50%;
 	margin: 0 auto;
+	box-shadow: 0px 0px 8px #000000;
 }
 
 #me {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 10px;
+}
+
+.bgwhite {
+	background-color: white;
+	padding: 6px;
+}
+.shrink {
+	max-width: 90%;
+}
+.cent {
+	text-align: center;
 }
